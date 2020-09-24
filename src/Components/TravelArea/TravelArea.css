@@ -1,0 +1,57 @@
+.travel-area {
+	border: 3px solid lightgray;
+	width: 270px;
+	height: 416px;
+	margin-right: 20px;
+}
+
+
+.home_box{
+	padding: 30px;
+}
+.home_box_content{
+	padding: 100px
+}
+.home_box_content h1{
+	font-style: normal;
+	font-weight: normal;
+	font-size: 70px;
+	color: #FFFFFF;
+}
+.home_box_content h5{
+	width: 455px;
+	height: 80px;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 22px;
+	margin-bottom: 10px;
+	color: #FFFFFF;
+}
+
+.booking_btn button{
+	padding: 18px 45px;
+	margin-top: 50px;
+	background: #F9A51A;
+	color: #fff;
+	letter-spacing: 2px;
+	font-weight: bold;
+	border: none;
+	transition: .5s;
+	border-radius: 50px;
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+	-ms-border-radius: 50px;
+	-o-border-radius: 50px;
+	-webkit-transition: .5s;
+	-moz-transition: .5s;
+	-ms-transition: .5s;
+	-o-transition: .5s;
+}
+
+.booking_btn button:hover{
+	background: green;
+}
+.home_box_image{
+	margin-left: 10px;
+}

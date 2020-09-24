@@ -1,0 +1,41 @@
+.hotel{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    margin-left: 40px
+}
+.hotel-features span{
+    font-weight:500;
+    color:rgb(68, 68, 68);
+    font-size:13px;
+    margin-right:5px;
+
+}
+.hotel-text-container p{
+    color:rgb(68, 68, 68);
+    font-size:14px;
+}
+.hotel-review span{
+    font-weight:500;
+    font-size:13px;
+    margin-right:10px;
+
+}
+.custom-color{
+    color:rgba(92, 91, 91, 0.63);
+}
+
+.hotel_destination{
+    width: 400px;
+    height: 100px;
+    margin: 50px 600px;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    color: #ABABAB;
+    box-shadow: 10px 10px 40px gray;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}

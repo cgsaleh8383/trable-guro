@@ -1,0 +1,81 @@
+.main_header{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background: rgb(0, 0, 0, 0.5);
+	position: relative;
+	width: 100%;
+}
+
+/*====================== ===================== header section ================ ========================= */
+
+.logo img{
+	width: 120px
+}
+
+/*====================== ===================== Search section ================ ========================= */
+
+.search_box input{
+	width: 370px;
+	height: 44px;
+	padding: 10px;
+	color: #fff;
+	background: rgba(255, 255, 255, 0.2);
+	border: 1px solid #FFFFFF;
+	box-sizing: border-box;
+	border-radius: 5px;
+}
+
+
+/*====================== ===================== menu section ================ ========================= */
+
+
+.header_menu{
+	display: flex;
+	align-items: center;
+	line-height: 100px
+}
+
+.header_menu ul{
+	list-style: none;
+	display: flex;
+	align-items: center;
+	margin-right: 30px;
+}
+.header_menu ul li{
+	margin-right: 30px;
+	font-weight: bold;
+}
+
+.header_menu ul li a{
+	text-decoration: none;
+	float: left;
+	color: #fff;
+	letter-spacing: 2px;
+}
+
+
+/*====================== ===================== button section ================ ========================= */
+
+.login_btn button{
+	padding: 12px 45px;
+	background: #F9A51A;
+	color: #fff;
+	letter-spacing: 2px;
+	font-weight: bold;
+	border: none;
+	transition: .5s;
+	border-radius: 50px;
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+	-ms-border-radius: 50px;
+	-o-border-radius: 50px;
+	-webkit-transition: .5s;
+	-moz-transition: .5s;
+	-ms-transition: .5s;
+	-o-transition: .5s;
+}
+
+.login_btn button:hover{
+	background: green;
+}
